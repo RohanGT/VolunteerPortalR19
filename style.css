@@ -1,15 +1,14 @@
+html {
+    height: 100%;
+}
 body {
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
 	/*height: 100vh;*/
-	/*background: linear-gradient(45deg, #301157, #FFC412, #B4156E, #053674, #389BB5, #A4CE4F);*/
-	/*background: linear-gradient(90deg,#ffc266,#ff7070,#B4156E);*/
 	background: linear-gradient(#662D8C,#ED1E79);
 	background-size: 200% 200%;
-	/*animation: fancy infinite 30s;*/
-/*	color: #000;*/
-/*	display: flex;
-	justify-content: space-around;  
-	align-items: center;
-	flex-direction: row;*/
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -23,6 +22,26 @@ main {
 	flex-direction: column;
 }
 
+.ui.segment{
+	width: 90vw;
+	align-self: center;
+	background-image: url("images/background.png");
+}
+
+.ui.column{
+	align-self: center;
+	margin:1vw 2vw;
+	background-color: white;
+	background-image: url("images/background.png") !important;
+}
+
+.vform{
+	margin-top: 5em !important;
+	width: 18em !important;
+	background: white !important;
+	padding: 0.5em !important;
+}
+
 h2{
 	text-align: center;
 }
@@ -34,6 +53,17 @@ label{
 	/*color: white !important;*/
 }
 form {
-	margin: 2vw 10vw;
+	margin: 1vw 10vw;
 	/*align-self: center;*/
 }
+
+.ui.button{
+	width: 10em;
+}
+
+.dets{
+	margin-top: 10vh;
+	margin-left: 1vw;
+}
+
+@media scree
