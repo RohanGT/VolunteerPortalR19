@@ -1,0 +1,39 @@
+body {
+	/*height: 100vh;*/
+	/*background: linear-gradient(45deg, #301157, #FFC412, #B4156E, #053674, #389BB5, #A4CE4F);*/
+	/*background: linear-gradient(90deg,#ffc266,#ff7070,#B4156E);*/
+	background: linear-gradient(#662D8C,#ED1E79);
+	background-size: 200% 200%;
+	/*animation: fancy infinite 30s;*/
+/*	color: #000;*/
+/*	display: flex;
+	justify-content: space-around;  
+	align-items: center;
+	flex-direction: row;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	/*height: 100vh;*/
+	/*padding-top: 3vh; */
+	margin-top: 5vh;
+	display: flex;
+	justify-content: center; 
+	align-items: left;
+	flex-direction: column;
+}
+
+h2{
+	text-align: center;
+}
+p {
+	font-size: 1.1em;
+}
+
+label{
+	/*color: white !important;*/
+}
+form {
+	margin: 2vw 10vw;
+	/*align-self: center;*/
+}
